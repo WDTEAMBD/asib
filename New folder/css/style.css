@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&family=Rubik+Microbe&display=swap');
+
+body{
+	padding: 100px 200px;
+	background: #000;
+	color: #fff;
+}
+.form-control:focus {
+	color: none;
+	background-color: none;
+	border-color: none;
+	outline: 0;
+	box-shadow: none;
+}
+h1{	font-family: 'Rubik Microbe', cursive;
+}
+h2{font-family: 'Rubik Distressed', cursive;
+}
+.submit-area{
+	margin-top: 50px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 50px rgb(117, 108, 194);
+	padding: 50px 100px;
+}
+
+.submitt-area{
+	margin-top: 50px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px #fff;
+	padding: 50px 100px;
+}
+#transaction-area{
+	display: none;
+}
+.status{
+	margin: 0px 30px;
+	color: #fff;
+	border-radius: 10px;
+	padding: 50px;
+}
+.deposit{
+	background: slateblue;
+}
+.withdraw{
+	background: lightsalmon;
+}
+.balance{
+	background: orange;
+}
